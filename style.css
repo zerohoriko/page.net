@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(213,181,156,0.22);
+    width:auto;
+    height: auto;
+    
+}
+
+.titulo-faro-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between  ;
+
+    font-size: 10px;
+    padding-left: 60px;
+    padding-bottom: 60px;
+    
+    
+
+
+
+
+    /*border: 5px solid darkblue;*/
+}
+
+.stan-de-libros{
+    display: flex;
+    justify-content: center; 
+    
+    height: 100%;
+
+
+
+    /*border: 5px solid darkblue;*/
+
+}
+
+.libros{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.libros{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.libros .imgs{
+
+    
+    padding: 60px;
+    width:110px;
+
+}
+.imagen-descripcción{
+    display: flex;
+    justify-content: space-between;
+
+    height: auto;
+    width: auto;
+    
+}
+
+.imagen-descripcción .como-se-hace{
+    width: 50%;
+    border-radius: 8px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.links li {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 30px;
+}
+
+.links li, a{
+
+    font-size: 13px;
+    box-shadow: inset 0 0 0 0 #1303f1;
+    color: #000;
+   
+    transition:color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+}
+
+
+.link li, a:hover {
+    box-shadow: inset 100px 0 0 0 0 #1303f1;
+    color: #604ed6;
+}
